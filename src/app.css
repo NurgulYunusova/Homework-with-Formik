@@ -1,0 +1,40 @@
+body {
+  background-color: beige;
+}
+
+.registerForm {
+  background-color: cadetblue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  width: 30%;
+  margin: 150px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: rgb(205, 205, 205);
+  border: transparent;
+  outline: none;
+  margin-left: 15px;
+}
+
+.submit {
+  border: transparent;
+  outline: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: burlywood;
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: #fff;
+}
+
+.submit:hover {
+  background-color: rgb(216, 165, 98);
+}
